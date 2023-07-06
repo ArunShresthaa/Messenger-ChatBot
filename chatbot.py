@@ -20,7 +20,7 @@ fbchat._state.FB_DTSG_REGEX = re.compile(r'"token":"(.*?)"')
 self_tag = '@Aaron Shrestha'
 
 chatbot = Chatbot(config={
-  "access_token": "eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6Ik1UaEVOVUpHTkVNMVFURTRNMEZCTWpkQ05UZzVNRFUxUlRVd1FVSkRNRU13UmtGRVFrRXpSZyJ9.eyJodHRwczovL2FwaS5vcGVuYWkuY29tL3Byb2ZpbGUiOnsiZW1haWwiOiJvbGRvbGRwaG90b3MxMjM0NTY3ODlAZ21haWwuY29tIiwiZW1haWxfdmVyaWZpZWQiOnRydWV9LCJodHRwczovL2FwaS5vcGVuYWkuY29tL2F1dGgiOnsidXNlcl9pZCI6InVzZXItRkF1WTBRQUhSRldQRXdmU2h5WFNJUG9jIn0sImlzcyI6Imh0dHBzOi8vYXV0aDAub3BlbmFpLmNvbS8iLCJzdWIiOiJnb29nbGUtb2F1dGgyfDEwNDcxOTY5Mzc3MzA1ODEzMTcyNSIsImF1ZCI6WyJodHRwczovL2FwaS5vcGVuYWkuY29tL3YxIiwiaHR0cHM6Ly9vcGVuYWkub3BlbmFpLmF1dGgwYXBwLmNvbS91c2VyaW5mbyJdLCJpYXQiOjE2ODczNTIzODAsImV4cCI6MTY4ODU2MTk4MCwiYXpwIjoiVGRKSWNiZTE2V29USHROOTVueXl3aDVFNHlPbzZJdEciLCJzY29wZSI6Im9wZW5pZCBwcm9maWxlIGVtYWlsIG1vZGVsLnJlYWQgbW9kZWwucmVxdWVzdCBvcmdhbml6YXRpb24ucmVhZCBvcmdhbml6YXRpb24ud3JpdGUifQ.N4rRKN6hCodomgBeAqhpkkWSbsGfyDLQSC37owmI1IkhHxyrwUf6fyJXiuQOKE6nSDEAnajoWhcw5igx7oeRlFOGyXD9JuQvhrO1yX-hsfCgp9lwzxoeRAFL2Ri77ge4EBUmKj0rTWliPL3ffMMZ_cAfgeP-T9xUCde3HH8xfn-A7m3DxT0cv8ydnGri8pLwo7YFaHeZnaJx5udu6wLUYzOWEXglZ9BpylBCAs5Q1xLBvzyRPFQ7tG4p7Nb21ju9EfKv8kZ1xXz1LMjj_kRGH88cwj_gm7fvA8xiLKXe9jHgNFirsZ6wuW-U91IpPBlST8BB-BQiJ4amGL8pCx3e4A"
+  "access_token": "<Your access token here>"
 })
 
 # Subclass the `Client` class to create your own client
@@ -68,11 +68,8 @@ class AutoReplyClient(Client):
                 )
                 
             
-# username = 'aruncresta10@gmail.com'
-# password = 'arun@1234'
-
-username = '9745979351'
-password = 'arun@159'
+username = ''
+password = ''
 # Create an instance of your custom client
 client = AutoReplyClient(username,password)
 
