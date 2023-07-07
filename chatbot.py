@@ -68,8 +68,8 @@ class AutoReplyClient(Client):
                 )
                 
             
-username = ''
-password = ''
+username = input('username')
+password = input('password')
 # Create an instance of your custom client
 client = AutoReplyClient(username,password)
 
