@@ -24,8 +24,8 @@ class AutoReplyClient(Client):
             reply_text = "Thank you for your message!\nI am busy right now.\nWill reply ASAP. This is an automated reply."
             self.send(Message(text=reply_text), thread_id=thread_id, thread_type=thread_type)
 
-username = '9745979351'
-password = 'arun@159'
+username = 
+password = 
 # Create an instance of your custom client
 client = AutoReplyClient(username,password)
 
